@@ -1,6 +1,1 @@
-##posts
----------
-
-- [example post](/posts/example_post.md)
-
-
+- [SQL 101](/posts/2020-16-06-sql-101.md)
