@@ -1,1 +1,6 @@
-This is an *example* `index.md` page... 
+##posts
+---------
+
+- [example post](/posts/example_post.md)
+
+
