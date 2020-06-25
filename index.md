@@ -1,1 +1,2 @@
-- [SQL 101](/posts/2020-16-06-sql-101.md)
+- [SQL 101](/posts/2020/sql-101.md)
+- [Tempspace Tracking Tool](/posts/2020/tracking_temp_space.md)
