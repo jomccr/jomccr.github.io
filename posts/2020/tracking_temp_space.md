@@ -64,6 +64,19 @@ BEGIN
 END;
 ```
 
+So we run this procedure to sample what's currently running every 15 minutes. Then we can begin to answer some questions that may come up about tempspace usage. 
+
+Ex: we had a process fail at 2am today trying to extend the `TEMP_B` tablespace. What else was using `TEMP_B` at this time? 
+
+```sql
+select * 
+from jomccr.tempspace_tb 
+where tablespace = 'TEMP_B'
+  and (log_dt between ... and ...) 
+;
+```
+
+You can pivots on the data in order to track tempspace over time (sum blocks by day for each available tablespace).
 
 
 
