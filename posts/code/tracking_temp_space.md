@@ -34,7 +34,7 @@ select v.tablespace, v.username, v.sql_id_tempseg,
        sysdate as log_dt,
        sum(v.blocks) as blocks,
        (sum(v.blocks) * 32768) / 1024 / 1024 / 1024 as gb_temp_used
-from v$tempseg_usage v
+from "v$tempseg_usage" v
 group by v.tablespace, v.username, v.sql_id_tempseg;
 ```
 
@@ -57,7 +57,7 @@ BEGIN
            sysdate as log_dt,
            sum(v.blocks) as blocks,
            (sum(v.blocks) * 32768) / 1024 / 1024 / 1024 as gb_temp_used
-    from v$tempseg_usage v
+    from "v$tempseg_usage" v
     group by v.tablespace, v.username, v.sql_id_tempseg;
 
     commit;
@@ -77,35 +77,5 @@ where tablespace = 'TEMP_B'
 ```
 
 You can pivots on the data in order to track tempspace over time (sum blocks by day for each available tablespace).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
