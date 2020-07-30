@@ -5,7 +5,7 @@ I despise editing raw HTML and CSS (well, I don't mind as long as it doesn't hav
 
 With this simple of a backend, I get to focus more on my writing. There are a few niceties I've ended up using in my `~/.vimrc` file though. One plugin I use for editing markdown files is Goyo. I'll include a screenshot below. 
 
-![Goyo Screenshot](../../img/goyo_example.png)
+![Goyo Screenshot](https://github.com/jomccr/jomccr.github.io/blob/master/img/goyo_example.png?raw=true) 
 
 The wide margins and minimal layout (no line numbers, status bars, etc) make it a nice distraction-free zone to write what I want and it even handles `:split` commands! In order to automatically start viewing a file with the Goyo extension toggled, I've added the following code to my `~/.vimrc`. 
 
