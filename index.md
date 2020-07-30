@@ -1,13 +1,9 @@
-This is where I will keep my random thoughts and notes that I write. 
+This is where I plan to keep notes, thoughts on tech, etc. 
 
-| Links | 
-| --- |
-| [LinkedIn](http://linkedin.com/in/jomccr) |
-| [Github](http://github.com/jomccr) |
+### Posts
 
-## Posts
-
-- [My pingtest.py Script (part 1)](./posts/code/pingtest_pt1.md)
-- [Tempspace Tracking Tool](./posts/code/tracking_temp_space.md)
-- [SQL 101](./posts/code/sql-101.md)
+- [(Meta) my writing/blogging setup](./posts/meta-writing.md)
+- [My pingtest.py script](./posts/code/pingtest_pt1.md)
+- [Tempspace tracking tool](./posts/code/tracking_temp_space.md)
+- [SQL 101 - tips I've given the interns](./posts/code/sql-101.md)
 
